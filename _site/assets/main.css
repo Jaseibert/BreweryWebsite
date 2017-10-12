@@ -1,16 +1,33 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; 
 }
 h4 {
-  padding-top: 10px;
+  padding-top: 20px;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; 
+
 }
+004770
 
 h3{
   margin-top: 0px;
   margin-bottom: 25px;
   padding-top: 0px;
-  font: 'Roboto Bold'
+  font-family: "Roboto";
+  font-size: 19px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; 
 }
 
 header {
@@ -39,9 +56,12 @@ header p {
   margin: 0;
 }
 
+ul {
+  list-style-image: url(https://i.imgur.com/sdCW4DI.png);
+}
+
 .jumbotron {
   display: flex;
-  align-items: center;
   background-image: url('https://i.imgur.com/BTGmFz3.jpg');
   background-size: cover;
   color: #ffffff;
@@ -49,6 +69,15 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+.jumbotron_lower {
+  display: flex;
+  align-items: ;
+  background-image: url('');
+  background-size: cover;
+  color: #ffffff;
+  height: 630px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
@@ -57,8 +86,35 @@ header p {
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
+  margin: 0 0 0px;
   color: #fff;
+}
+
+.overlay {
+  background-color: #9C0000;
+  position: relative;
+  height: 550px;
+  width: 500px;
+  font-color: #ffffff
+  left: -20px;
+  top: 0px
+}
+
+.media-heading{
+  font-family: "Roboto";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.media-body {
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; 
 }
 
 
@@ -68,7 +124,7 @@ section .row img {
 }
 
 .col-sm-6 {
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .col-md-6 {
@@ -95,10 +151,6 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.overlay {
-  background-color: ;
-  opacity: 0.5;
-}
 
 footer {
   font-size: 12px;
