@@ -1,49 +1,10 @@
-body {
-  font-family: "Open Sans";
-  font-size: 17px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px; 
-}
-h4 {
-  padding-top: 20px;
-  font-family: "Roboto";
-  font-size: 17px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px; 
-
-}
-004770
-
-h3{
-  margin-top: 0px;
-  margin-bottom: 25px;
-  padding-top: 0px;
-  font-family: "Roboto";
-  font-size: 19px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px; 
-}
-
 header {
-
   padding: 20px 0;
 }
 
-header .row,
-footer .row {
+header .row {
   display: flex;
   align-items: center;
-}
-
-header h1 {
-  font-weight: 700;
-  margin: 0;
 }
 
 header nav {
@@ -51,72 +12,193 @@ header nav {
   justify-content: flex-end;
 }
 
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-
-ul {
-  list-style-image: url(https://i.imgur.com/sdCW4DI.png);
-}
-
-.jumbotron {
-  display: flex;
-  background-image: url('https://i.imgur.com/BTGmFz3.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 630px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-.jumbotron_lower {
-  display: flex;
-  align-items: ;
-  background-image: url('');
-  background-size: cover;
-  color: #ffffff;
-  height: 630px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-}
-
-.jumbotron h3 {
-  margin: 0 0 0px;
-  color: #fff;
-}
-
-.overlay {
-  background-color: #9C0000;
-  position: relative;
-  height: 550px;
-  width: 500px;
-  font-color: #ffffff
-  left: -20px;
-  top: 0px
-}
-
-.media-heading{
-  font-family: "Roboto";
-  font-size: 17px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 20px;
-}
-.media-body {
+header nav p {
+  padding-right: 20px;
   font-family: "Open Sans";
-  font-size: 17px;
+  font-size: 15px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 20px; 
+  opacity: 0.82;
 }
 
+ul {
+  list-style-image: url(https://i.imgur.com/sdCW4DI.png);
+  padding-left: 3px;
+}
+
+ul h4 {
+  font-family: "Roboto"
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+  color: #555555
+  opacity: 0.67;
+}
+
+li {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px; 
+  color: #555555;
+  opacity: 0.82;
+}
+
+.jumbotron {
+  display: flex;
+  background-image: url('https://i.imgur.com/5BZ58by.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 642px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron img 
+
+col-sm-5 .jumbo-section-head h3{
+  margin-top: 0px;
+  margin-bottom: 45px;
+  padding-top: 0px;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 30px; 
+  color: #ffffff;
+  opacity: 0.93;
+}
+col-sm-5 .jumbo-section-sub-head h4{
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding-top: 0px;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 30px; 
+  color: #ffffff;
+}
+
+col-xs-8 .jumbo-section-sub-head h4{
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding-top: 0px;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 30px; 
+  color: #ffffff;
+  align-items: center;
+}
+
+.input-group {
+  width: 350px;
+}
+
+.form-control  {
+  height: 50px;
+}
+
+
+.jumbotron_lower {
+  display: flex;
+  align-items: ;
+  background-image: url('https://i.imgur.com/Dlj0YAf.png');
+  background-size: contain;
+  color: #ffffff;
+  height: 362.5px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.media-object {
+  padding-top: 12px;
+}
+
+.media-heading h4 {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  padding-top: 0px;
+  line-height: 20px;
+  color: #004770;
+  opacity: 0.82;
+}
+.media-body p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px;
+  color: #888888 
+  margin-top: 0px;
+  opacity: 0.67;
+}
+
+.CTA_Link p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.CTA_Link a {
+  padding-top: 50px;
+  margin-top: 15px;
+  font-family: "Roboto"
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #D43E00;
+  opacity: 0.87;
+}
+.section-heading h3 {
+  font-family: "Roboto";
+  font-size: 19px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px; 
+  color: #444444
+}
+
+.section-heading a {
+  font-family: "Roboto";
+  font-size: 19px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  color: #004770;
+  opacity: 0.82;
+}
+.Beer_video{
+  min-width: 140px;
+  min-height: 78.75px;
+  max-width: 560px;
+  max-height:315px;
+}
+.video-description p {
+  padding-top: 20px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; 
+  opacity: 0.67;
+
+}
 
 section .row img {
   margin: 0 0 30px;
@@ -124,42 +206,66 @@ section .row img {
 }
 
 .col-sm-6 {
-  margin-top: 0px;
-}
-
-.col-md-6 {
-  margin: 0 0 30px;
+  margin-top: 10px;
 }
 
 .btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
+  width: 350px;
+  height: 50px;
+  border-radius: 0px;
+  border-bottom-width: 3px;
+  border-color: #1367A6;
+  background-color: #004770;
+  color: #ffffff;
   text-shadow: none;
-  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #fbd1d5;
-  
+  border-color: #004770;
+  border-bottom-width: 3px;
+  background-color: #1367A6;
 }
 
-.btn-secondary {
-  background-color: #E8DFE0;
+
+.fa.fa-search i {
   color: #ffffff;
-  margin: 0 0 30px;
 }
 
 
 footer {
   font-size: 12px;
   padding: 20px 0;
+  background-color: #E2E0E0;
+  background-size: contain;
 }
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+footer .col-sm-1 img {
+padding-left: 25px;
+padding-right: 0px;
+padding-top: 25px;
+padding-bottom: 0px;
+}
+
+footer .col-sm-9 p {
+  padding-top: 20px;
+  padding-left: 0px;
+  font-family: "Open Sans"
+  font-size: 24px;
+  font-weight: 300;
+  opacity: 0.87;
+}
+footer .col-sm-6 p {
+  padding-left: 0px;
+  padding-top: 0px;
+  font-family: "Open Sans"
+  font-weight: 100;
+  opacity: 0.82;
+}
+footer .col-sm-6 a {
+  color: #004770;
 }
 
 footer ul {
@@ -169,4 +275,4 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
-}e
+}
