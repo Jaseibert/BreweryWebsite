@@ -7,7 +7,9 @@
 
 <!-- Site Meta Data -->
   <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="Jeremy's Brewery is one of the most Amazing Brewerys in the Southern Indiana Region. It is filled with an assortmant of daily activities, making it a lively place to stop by and take a tour. After your tour take a refreshing break and enjoy one of the small batch creations made only for those who stop in and take the tour.  ">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
 <!-- Scripts -->
@@ -21,21 +23,27 @@
   <link rel="stylesheet" type="text/css" href="/assets/main.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
+  <script src="js/velocity.min.js" /></script>
+  <script src="js/velocity.ui.min.js" /></script>
+  <script src="js/scroll.js"></script>
+
 </head>
-  <body>
-    
+
+
+  <body>    
 <!-- Navigation/Header -->
+  <div id="#top">
     <header class="container">
      <div class="row">
-      <figure class="col-sm-4">
-      <img src="https://i.imgur.com/2I9Znl4.png"> 
+      <figure class="col-sm-3 col-xs-6">
+        <img src="https://i.imgur.com/2I9Znl4.png"> 
        </figure>
-       <figure class="col-sm-2"> 
+       <figure class="col-sm-1"> 
   <!-- Blank space -->
        </figure>
-       <nav class="col-sm-3  text-right">
+       <nav class="col-sm-7 text-right">
          <p>Lorem ipsum dolor sit amet, vis tollit persecuti an, mutat iuvaret eam eu, eu eos mucius dolorum voluptaria. </p>
-         <figure class="col-sm-3">         
+         <figure class="col-sm-1 col-xs-6">         
           <img src="https://i.imgur.com/4pbD83N.png">
          </figure>
         </nav>
@@ -59,22 +67,21 @@
             </div>
           </form>
         <a class="btn btn-primary btn-lg" href="#">
-          <i class="fa fa-search pull-left" aria-hidden="true"></i>SUBMIT IPSUM DOLOR SIT CONSECTECT</a>
+          <i class="fa fa-search pull-left" aria-hidden="true"></i>SUBMIT IPSUM DOLOR SIT <div class="clearfix visible-xs"></div>CONSECTECT</a>
     </div>
      </section>
 
 <!-- Upper Body Section -->
   <section class="container">
    <div class="row">
-
      <!-- Left Columnar Body Section -->
      <figure class="col-sm-6">
-       <iframe class="Beer_video" src="https://www.youtube.com/embed/BvUOESDVfuI" frameborder="0" allowfullscreen></iframe>
+       <iframe height="26%" width="100%" class="Beer_video" src="https://www.youtube.com/embed/BvUOESDVfuI" frameborder="0" allowfullscreen></iframe>
        <div class="video-description">
         <p>Lorem ipsum dolor sit amet, vis tollit persecuti an, mutat iuvaret eam eu, eu eos mucius dolorum voluptaria. Etainm blandit convallis porttitor.Qui consetetur definiebas ut, id detraxit menandri cum. Vix ut mandamus petentium. Salutatus scripserit in est. Sale assueverit an mei, eam ea mutat scripta adolescens.</p>
       </div>
      </figure>
-
+    
      <!-- Hard break for Mobile -->
      <div class="clearfix visible-xs"></div>
 
@@ -97,9 +104,6 @@
             <div class="media-body">
               <p> Lorem ipsum dolor sit amet, vis tollit persecuti an, mutat iuvaret eam eu, eu eos mucius dolorum voluptaria. Etainm blandit convallis porttitor. </p>
           </div>
-          <!-- Hard Break for Mobile -->
-          <div class="clearfix visible-xs"></div>
-            
           <!-- Lower Media Object "Wine glass" Class -->
            <div class="media-heading"> 
               <h4>Lorem ipsum dolor</h4>
@@ -121,7 +125,7 @@
        <!-- Right Side List Object -->
        <figure class="col-sm-6">
         <!-- Divider Bar -->
-        <img src="https://i.imgur.com/jPHP4LR.png">
+        <img class="Divider" src="https://i.imgur.com/jPHP4LR.png">
       <ul>
         <h4>Vestibulum elementum rhoncus nulla:</h4>
         <!-- List Column 1 -->
@@ -146,7 +150,7 @@
     <!-- Call to action link-->
     <figure class="col-sm-6">
       <div class="CTA_Link">
-        <p> <a href="#">CTA IPSUM DOLOR SIT AM CONSECTETUR CTA   ></a></p>
+        <p> <a href="#top">CTA IPSUM DOLOR SIT AM CONSECTETUR CTA   ></a></p>
       </div>
     </figure>
     <figure class="col-sm-6">
@@ -166,7 +170,7 @@
     <section class="footer"> 
      <div class="row">
       <!-- Left side Image -->
-      <figure class="col-sm-1">
+      <figure class="col-sm-1 col-xs-12">
         <img src="https://i.imgur.com/4pbD83N.png">
       </figure>
       <figure class="col-sm-1">

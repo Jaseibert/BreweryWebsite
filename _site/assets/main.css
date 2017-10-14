@@ -1,3 +1,6 @@
+/* Large Mobile Devices & Laptops (Ipad Pro 12.9" & Up, Macbook 13" & Up) */
+
+
 header {
   padding: 20px 0;
 }
@@ -59,8 +62,6 @@ li {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron img 
-
 .jumbo-section-head h3{
   margin-top: 0px;
   margin-bottom: 45px;
@@ -87,121 +88,16 @@ li {
   color: #ffffff;
 }
 
+
+
+/* Input Field  overlaying the Jumbotron */
+/* The entire Fields size */
 .input-group {
   width: 350px;
 }
-
+/* Just the elements height*/
 .form-control  {
   height: 50px;
-}
-
-
-.jumbotron_lower {
-  display: flex;
-  align-items: ;
-  background-image: url('https://i.imgur.com/Dlj0YAf.png');
-  background-size: contain;
-  color: #ffffff;
-  height: 362.5px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-.media-object {
-  padding-top: 12px;
-}
-
-.media-heading h4 {
-  font-family: "Roboto";
-  font-size: 18px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  padding-top: 0px;
-  line-height: 20px;
-  color: #004770;
-  opacity: 0.82;
-}
-.media-body p {
-  font-family: "Open Sans";
-  font-size: 18px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 100;
-  line-height: 20px;
-  color: #888888 
-  margin-top: 0px;
-  opacity: 0.67;
-}
-
-.CTA_Link p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-}
-.CTA_Link a {
-  padding-top: 50px;
-  margin-top: 15px;
-  font-family: "Roboto"
-  line-height: 20px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #D43E00;
-  opacity: 0.87;
-}
-.section-heading h3 {
-  font-family: "Roboto";
-  font-size: 19px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 100;
-  line-height: 20px; 
-  color: #444444
-}
-
-.section-heading a {
-  font-family: "Roboto";
-  font-size: 19px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 600;
-  line-height: 20px; 
-  color: #004770;
-  opacity: 0.82;
-}
-
-col-xs-11 .section-heading h3 {
-  font-family: "Roboto";
-  font-size: 19px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 100;
-  line-height: 20px; 
-  color: #444444
-  align-items: center;
-}
-
-
-
-.Beer_video{
-  min-width: 140px;
-  min-height: 78.75px;
-  max-width: 560px;
-  max-height:315px;
-}
-.video-description p {
-  padding-top: 20px;
-  font-family: "Open Sans";
-  font-size: 15px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px; 
-  opacity: 0.67;
-
-}
-
-.col-sm-6 {
-  margin-top: 10px;
 }
 
 .btn.btn-primary {
@@ -224,33 +120,102 @@ col-xs-11 .section-heading h3 {
   background-color: #1367A6;
 }
 
-
 .fa.fa-search i {
   color: #ffffff;
 }
 
- @media (max-width: 768px) {
-  .jumbo-section-head h3 {
-    font-size: 25px;
-      }
-  .jumbo-section-sub-head h4 {
-    font-size: : 20px;
-      }
-   .jumbotron {
-      height: 642.5px;
-      }  
-    }
- @media (max-width: 768px) {
-  .jumbo-section-head h3 {
-    font-size: 20px;
-      }
-  .jumbo-section-sub-head h4 {
-    font-size: : 15px;
-      }
-  .jumbotron {
-      background-image: url();
-     }
-  }
+.left-section {
+  
+}
+.video-description p {
+  padding-top: 20px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; 
+  opacity: 0.67;
+}
+
+.media-object {
+  padding-top: 30px;
+}
+
+.col-sm-6 {
+  margin-top: 10px;
+}
+
+.media-heading h4 {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  padding-top: 0px;
+  line-height: 20px;
+  color: #004770;
+  opacity: 0.82;
+}
+
+.media-body p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px;
+  color: #888888 
+  margin-top: 0px;
+  opacity: 0.67;
+}
+
+.section-heading h3 {
+  font-family: "Roboto";
+  font-size: 19px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px; 
+  color: #444444
+}
+
+.section-heading a {
+  font-family: "Roboto";
+  font-size: 19px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  color: #004770;
+  opacity: 0.82;
+}
+
+.CTA_Link p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.CTA_Link a {
+  padding-top: 50px;
+  margin-top: 15px;
+  font-family: "Roboto"
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #D43E00;
+  opacity: 0.87;
+}
+
+.jumbotron_lower {
+  display: flex;
+  align-items: ;
+  background-image: url('https://i.imgur.com/PedMElN.png');
+  background-size: contain;
+  color: #ffffff;
+  height: 362.5px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
 
 footer {
   font-size: 12px;
@@ -260,11 +225,11 @@ footer {
 }
 
 footer .col-sm-1 img {
-padding-left: 25px;
-padding-right: 0px;
-padding-top: 25px;
-padding-bottom: 0px;
-}
+  padding-left: 25px;
+  padding-right: 0px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  }
 
 footer .col-sm-9 p {
   padding-top: 20px;
@@ -283,4 +248,571 @@ footer .col-sm-6 p {
 }
 footer .col-sm-6 a {
   color: #004770;
+}
+
+
+
+/* Large Mobile Phones (Iphone 7 & 7 Plus) */
+@media (max-width: 768px) {
+  
+  header {
+    padding: 20px 0;
+  }
+
+  header .row {
+    display: flex;
+    align-items: center;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header nav p {
+    padding-right: 20px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    opacity: 0.82;
+  }
+
+  ul {
+    list-style-image: url(https://i.imgur.com/sdCW4DI.png);
+    padding-left: 3px;
+  }
+
+  ul h4 {
+    font-family: "Roboto"
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 20px;
+    color: #555555
+    opacity: 0.67;
+    text-align: center;
+  }
+
+  li {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px; 
+    color: #555555;
+    opacity: 0.82;
+  }
+
+  .jumbotron {
+    display: flex;
+    background-image: url('https://i.imgur.com/Kzue4eN.png');
+    background-size: cover;
+    color: #ffffff;
+    height: 525px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+
+  .jumbo-section-head h3{
+    margin-top: 0px;
+    margin-bottom: 45px;
+    padding-top: 0px;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 30px; 
+    color: #ffffff;
+    opacity: 0.93;
+    text-align: center;
+  }
+  .jumbo-section-sub-head h4{
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-top: 0px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    color: #ffffff;
+    text-align: center;
+  }
+
+
+/* Input Field  overlaying the Jumbotron */
+  /* The entire Fields size */
+  .input-group {
+    width: 265px;
+  }
+
+  .form-control  {
+    height: 55px;
+  }
+
+  .btn.btn-primary {
+    width: 265px;
+    height: 55px;
+    border-radius: 0px;
+    border-bottom-width: 3px;
+    border-color: #1367A6;
+    background-color: #004770;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    border-color: #004770;
+    border-bottom-width: 3px;
+    background-color: #1367A6;
+  }
+
+
+  .fa.fa-search i {
+    color: #ffffff;
+  }
+
+
+  .video-description p {
+    padding-top: 20px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    opacity: 0.67;
+    text-align: center;
+  }
+  .section-heading h3 {
+    font-family: "Roboto";
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px; 
+    color: #444444;
+    text-align: center;
+  }
+
+  .section-heading a {
+    font-family: "Roboto";
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    color: #004770;
+    opacity: 0.82;
+    text-align: center;
+  }
+
+  .media-object {
+    padding-top: 60px;
+  }
+
+  .col-sm-6 {
+    margin-top: 10px;
+  }
+
+  .media-heading h4 {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    padding-top: 0px;
+    line-height: 20px;
+    color: #004770;
+    opacity: 0.82;
+    text-align: center;
+  }
+  .media-body p {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px;
+    color: #888888 
+    margin-top: 0px;
+    opacity: 0.67;
+  }
+
+  .Divider {
+    width: 305px;
+    padding-bottom: 10px;
+  }
+
+  .CTA_Link p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+  }
+  .CTA_Link a {
+    padding-top: 50px;
+    margin-top: 15px;
+    font-family: "Roboto"
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #D43E00;
+    opacity: 0.87;
+    text-align: center;
+  }
+/* Lower Jumboron Element*/
+  .jumbotron_lower {
+    display: flex;
+    align-items: ;
+    background-image: url('https://i.imgur.com/Pw6hWbG.png');
+    background-size: cover;
+    color: #ffffff;
+    height: 435px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+
+  .col-sm-3 img {
+    height: 75px;
+    width: 125px;
+      }
+
+
+
+/* Footer Elements*/
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+    background-color: #E2E0E0;
+    background-size: cover;
+  }
+
+  footer .col-sm-1 img {
+  padding-left: 25px;
+  padding-right: 0px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  }
+
+  footer .col-xs-12 img {
+    align-content: center;
+  }
+
+  footer .col-sm-9 p {
+    padding-top: 20px;
+    padding-left: 0px;
+    font-family: "Open Sans"
+    font-size: 24px;
+    font-weight: 300;
+    opacity: 0.87;
+  }
+  footer .col-sm-6 p {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-family: "Open Sans"
+    font-weight: 100;
+    opacity: 0.82;
+  }
+  footer .col-sm-6 a {
+    color: #004770;
+  }
+
+
+
+
+
+
+/*Small Mobile Phones & Ipods (Iphone SE, Iphone 5s & 5, etc..) */
+ @media (max-width: 320px) {
+
+/* Header Section Style & Layout */
+/* I Struggled to eliminate the center text once the  */
+  header {
+    padding: 20px 0;
+  }
+
+  header .row {
+    display: flex;
+    align-items: center;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header nav p {
+    padding-right: 20px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    opacity: 0.82;
+  }
+
+  .col-sm-3 img {
+    height: 75px;
+    width: 125px;
+      }
+
+
+
+
+/* Main Jumbotron "Aspot Banner" Style & Elements */
+  .jumbotron {
+    display: flex;
+    background-image: url('https://i.imgur.com/Kzue4eN.png');
+    background-size: cover;
+    color: #ffffff;
+    height: 525px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+
+
+
+  }
+  /* Heading Styles in the Jumbotron */
+  .jumbo-section-head h3{
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-top: 0px;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 30px; 
+    color: #ffffff;
+    opacity: 0.93;
+    text-align: center;
+  }
+  .jumbo-section-sub-head h4{
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-top: 0px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    color: #ffffff;
+    text-align: center;
+  }
+
+
+
+/* Input Field  overlaying the Jumbotron */
+  /* The entire Fields size */
+  .input-group {
+    width: 215px;
+  }
+
+  .form-control  {
+    height: 55px;
+  }
+
+  .btn.btn-primary {
+    width: 215px;
+    height: 55px;
+    border-radius: 0px;
+    border-bottom-width: 3px;
+    border-color: #1367A6;
+    background-color: #004770;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    border-color: #004770;
+    border-bottom-width: 3px;
+    background-color: #1367A6;
+  }
+
+
+  .fa.fa-search i {
+    color: #ffffff;
+  }
+
+   .video-description p {
+    padding-top: 20px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    opacity: 0.67;
+    text-align: center;
+  }
+    .section-heading h3 {
+    font-family: "Roboto";
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px; 
+    color: #444444;
+    text-align: center;
+  }
+
+  .section-heading a {
+    font-family: "Roboto";
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    color: #004770;
+    opacity: 0.82;
+    text-align: center;
+  }
+
+  .media-object {
+    padding-top: 60px;
+  }
+
+  .col-sm-6 {
+    margin-top: 10px;
+  }
+
+  .media-heading h4 {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    padding-top: 0px;
+    line-height: 20px;
+    color: #004770;
+    opacity: 0.82;
+    text-align: center;
+  }
+  .media-body p {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px;
+    color: #888888 
+    margin-top: 0px;
+    opacity: 0.67;
+  }
+
+  .Divider {
+    width: 268px;
+  }
+/*List Elements & Styles*/
+
+  /**/
+  ul {
+    list-style-image: url(https://i.imgur.com/sdCW4DI.png);
+    padding-left: 3px;
+  }
+
+  ul h4 {
+    font-family: "Roboto"
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 20px;
+    color: #555555
+    opacity: 0.67;
+    text-align: center;
+  }
+
+  li {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px; 
+    color: #555555;
+    opacity: 0.82;
+  }
+
+
+
+/*The Call-to Action Link*/
+
+  /*P-type Styling*/
+  .CTA_Link p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  /*Reference & Link Styling*/
+  .CTA_Link a {
+    padding-top: 50px;
+    margin-top: 15px;
+    font-family: "Roboto"
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #D43E00;
+    opacity: 0.87;
+    text-align: center;
+  }
+  
+
+/* Lower Jumbotron Element*/
+  .jumbotron_lower {
+    display: flex;
+    align-items: ;
+    background-image: url('https://i.imgur.com/Pw6hWbG.png');
+    background-size: cover;
+    color: #ffffff;
+    height: 365px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+
+    
+  
+/* Footer Elements */
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+    background-color: #E2E0E0;
+    background-size: cover;
+  }
+
+  footer .col-xs-12 img {
+    align-content: center;
+  }
+
+  footer .col-sm-9 p {
+    padding-top: 20px;
+    padding-left: 0px;
+    font-family: "Open Sans"
+    font-size: 24px;
+    font-weight: 300;
+    opacity: 0.87;
+  }
+  footer .col-sm-6 p {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-family: "Open Sans"
+    font-weight: 100;
+    opacity: 0.82;
+  }
+  footer .col-sm-6 a {
+    color: #004770;
+  }
 }
