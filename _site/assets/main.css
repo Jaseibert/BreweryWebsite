@@ -1,20 +1,22 @@
 /* Large Mobile Devices & Laptops (Ipad Pro 12.9" & Up, Macbook 13" & Up) */
 
-
+/* Header Elements*/
 header {
   padding: 20px 0;
 }
 
+/* Header Row Display Styling */
 header .row {
   display: flex;
   align-items: center;
 }
-
+/* Header Nav Display Styling */
 header nav {
   display: flex;
   justify-content: flex-end;
 }
 
+/* Header Description P-type Styling */
 header nav p {
   padding-right: 20px;
   font-family: "Open Sans";
@@ -26,33 +28,9 @@ header nav p {
   opacity: 0.82;
 }
 
-ul {
-  list-style-image: url(https://i.imgur.com/sdCW4DI.png);
-  padding-left: 3px;
-}
+/* Main Jumbotron/Aspot Banner Elements */
 
-ul h4 {
-  font-family: "Roboto"
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
-  line-height: 20px;
-  color: #555555
-  opacity: 0.67;
-}
-
-li {
-  font-family: "Open Sans";
-  font-size: 18px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 100;
-  line-height: 20px; 
-  color: #555555;
-  opacity: 0.82;
-}
-
+/* Jumbotron Styling */
 .jumbotron {
   display: flex;
   background-image: url('https://i.imgur.com/5BZ58by.png');
@@ -61,7 +39,7 @@ li {
   height: 642px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
-
+/* Primary Header Styling */
 .jumbo-section-head h3{
   margin-top: 0px;
   margin-bottom: 45px;
@@ -75,6 +53,7 @@ li {
   color: #ffffff;
   opacity: 0.93;
 }
+/* Secondary Header Styling */
 .jumbo-section-sub-head h4{
   margin-top: 0px;
   margin-bottom: 25px;
@@ -90,16 +69,19 @@ li {
 
 
 
-/* Input Field  overlaying the Jumbotron */
-/* The entire Fields size */
+/* Input Field */
+
+/* Input Field Sizing */
 .input-group {
   width: 350px;
 }
-/* Just the elements height*/
+
+/*Input From Styling*/
 .form-control  {
   height: 50px;
 }
 
+/* Primary Button Styling */
 .btn.btn-primary {
   width: 350px;
   height: 50px;
@@ -113,6 +95,7 @@ li {
   font-weight: bold;
 }
 
+/* Prinamry Button Hover State */
 .btn.btn-primary:hover {
   color: #ffffff;
   border-color: #004770;
@@ -120,13 +103,12 @@ li {
   background-color: #1367A6;
 }
 
+/* Font Awesome Search Icon */
 .fa.fa-search i {
   color: #ffffff;
 }
 
-.left-section {
-  
-}
+/* Video Description Styling */
 .video-description p {
   padding-top: 20px;
   font-family: "Open Sans";
@@ -138,14 +120,17 @@ li {
   opacity: 0.67;
 }
 
+/* Media Section Styling */
+
+/* Media Object Positioning */
 .media-object {
   padding-top: 30px;
 }
-
+/* Entire Column Spacing */
 .col-sm-6 {
   margin-top: 10px;
 }
-
+/* Media Heading Styling */
 .media-heading h4 {
   font-family: "Roboto";
   font-size: 18px;
@@ -157,7 +142,7 @@ li {
   color: #004770;
   opacity: 0.82;
 }
-
+/* Media P-type Styling */
 .media-body p {
   font-family: "Open Sans";
   font-size: 18px;
@@ -170,6 +155,9 @@ li {
   opacity: 0.67;
 }
 
+/* Section Below Jumbotron Styling */
+
+/* Section Text Styling */
 .section-heading h3 {
   font-family: "Roboto";
   font-size: 19px;
@@ -179,7 +167,7 @@ li {
   line-height: 20px; 
   color: #444444
 }
-
+/* Section link Styling */
 .section-heading a {
   font-family: "Roboto";
   font-size: 19px;
@@ -191,11 +179,47 @@ li {
   opacity: 0.82;
 }
 
+/* List Elements & Styles */
+
+/* List Styling */
+ul {
+  list-style-image: url(https://i.imgur.com/sdCW4DI.png);
+  padding-left: 3px;
+}
+
+/* List Heading Styling*/
+ul h4 {
+  font-family: "Roboto"
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+  color: #555555
+  opacity: 0.67;
+}
+
+/* List Item Styling */
+li {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px; 
+  color: #555555;
+  opacity: 0.82;
+}
+
+/* The Call-to Action Link */
+
+ /* P-type Styling */
 .CTA_Link p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+/* Reference & Link Styling */
 .CTA_Link a {
   padding-top: 50px;
   margin-top: 15px;
@@ -206,7 +230,7 @@ li {
   color: #D43E00;
   opacity: 0.87;
 }
-
+/* Lower Jumbotron Element */
 .jumbotron_lower {
   display: flex;
   align-items: ;
@@ -217,13 +241,16 @@ li {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+/* Footer Elements */
 footer {
   font-size: 12px;
-  padding: 20px 0;
+  width:100%;
+  padding: 0;
+  margin: 0;
   background-color: #E2E0E0;
-  background-size: contain;
+  
 }
-
+/* Footer Image Positioning */
 footer .col-sm-1 img {
   padding-left: 25px;
   padding-right: 0px;
@@ -231,6 +258,7 @@ footer .col-sm-1 img {
   padding-bottom: 0px;
   }
 
+/* Footer Description P-type Styling */
 footer .col-sm-9 p {
   padding-top: 20px;
   padding-left: 0px;
@@ -239,6 +267,7 @@ footer .col-sm-9 p {
   font-weight: 300;
   opacity: 0.87;
 }
+/* Footer Description P-type Styling */
 footer .col-sm-6 p {
   padding-left: 0px;
   padding-top: 0px;
@@ -246,6 +275,7 @@ footer .col-sm-6 p {
   font-weight: 100;
   opacity: 0.82;
 }
+/* Footer Legal & Privacy link Styling*/
 footer .col-sm-6 a {
   color: #004770;
 }
@@ -253,22 +283,26 @@ footer .col-sm-6 a {
 
 
 /* Large Mobile Phones (Iphone 7 & 7 Plus) */
+/* I Struggled to eliminate the center text after the Size Shrunk to Mobile, 
+ I am certain that it is a simple fix. */
 @media (max-width: 768px) {
   
+  /* Header Elements */
   header {
     padding: 20px 0;
   }
-
+  /* Header Row Display Styling */
   header .row {
     display: flex;
     align-items: center;
   }
-
+  /* Header Nav Display Styling */
   header nav {
     display: flex;
     justify-content: flex-end;
   }
 
+  /* Header Description P-type Styling */
   header nav p {
     padding-right: 20px;
     font-family: "Open Sans";
@@ -280,34 +314,9 @@ footer .col-sm-6 a {
     opacity: 0.82;
   }
 
-  ul {
-    list-style-image: url(https://i.imgur.com/sdCW4DI.png);
-    padding-left: 3px;
-  }
+/* Main Jumbotron/Aspot Banner Elements */
 
-  ul h4 {
-    font-family: "Roboto"
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 20px;
-    color: #555555
-    opacity: 0.67;
-    text-align: center;
-  }
-
-  li {
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 100;
-    line-height: 20px; 
-    color: #555555;
-    opacity: 0.82;
-  }
-
+  /* Jumbotron Styling */
   .jumbotron {
     display: flex;
     background-image: url('https://i.imgur.com/Kzue4eN.png');
@@ -316,7 +325,7 @@ footer .col-sm-6 a {
     height: 525px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
   }
-
+  /* Primary Header Styling */
   .jumbo-section-head h3{
     margin-top: 0px;
     margin-bottom: 45px;
@@ -331,6 +340,7 @@ footer .col-sm-6 a {
     opacity: 0.93;
     text-align: center;
   }
+  /* Secondary Header Styling */
   .jumbo-section-sub-head h4{
     margin-top: 0px;
     margin-bottom: 25px;
@@ -346,16 +356,17 @@ footer .col-sm-6 a {
   }
 
 
-/* Input Field  overlaying the Jumbotron */
-  /* The entire Fields size */
+/* Input Field */
+
+  /* Input Field Sizing */
   .input-group {
     width: 265px;
   }
-
+  /* Input Form Sizing */
   .form-control  {
     height: 55px;
   }
-
+  /* Primary Button Styling */
   .btn.btn-primary {
     width: 265px;
     height: 55px;
@@ -369,6 +380,7 @@ footer .col-sm-6 a {
     font-weight: bold;
   }
 
+  /* Prinamry Button Hover State */
   .btn.btn-primary:hover {
     color: #ffffff;
     border-color: #004770;
@@ -376,12 +388,12 @@ footer .col-sm-6 a {
     background-color: #1367A6;
   }
 
-
+  /* Font Awesome Search Icon */
   .fa.fa-search i {
     color: #ffffff;
   }
 
-
+  /* Video Description Styling */
   .video-description p {
     padding-top: 20px;
     font-family: "Open Sans";
@@ -393,6 +405,10 @@ footer .col-sm-6 a {
     opacity: 0.67;
     text-align: center;
   }
+
+  /* Section Below Jumbotron Styling */
+
+  /* Section Text Styling */
   .section-heading h3 {
     font-family: "Roboto";
     font-size: 19px;
@@ -403,7 +419,7 @@ footer .col-sm-6 a {
     color: #444444;
     text-align: center;
   }
-
+  /* Section link Styling */
   .section-heading a {
     font-family: "Roboto";
     font-size: 19px;
@@ -416,14 +432,19 @@ footer .col-sm-6 a {
     text-align: center;
   }
 
+/* Media Section Styling */
+
+  /* Media Object Positioning */
   .media-object {
     padding-top: 60px;
   }
 
+  /* Entire Column Spacing */
   .col-sm-6 {
     margin-top: 10px;
   }
 
+  /* Media Heading Styling */
   .media-heading h4 {
     font-family: "Roboto";
     font-size: 18px;
@@ -436,6 +457,8 @@ footer .col-sm-6 a {
     opacity: 0.82;
     text-align: center;
   }
+
+  /* Media P-type Styling */
   .media-body p {
     font-family: "Open Sans";
     font-size: 15px;
@@ -448,18 +471,56 @@ footer .col-sm-6 a {
     opacity: 0.67;
   }
 
+  /* Divider Image Sizing */
   .Divider {
     width: 305px;
     padding-bottom: 10px;
   }
 
+/*List Elements & Styles */
+
+  /* List Styling */
+  ul {
+    list-style-image: url(https://i.imgur.com/sdCW4DI.png);
+    padding-left: 3px;
+  }
+  /* List Heading Styling */
+  ul h4 {
+    font-family: "Roboto"
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 20px;
+    color: #555555
+    opacity: 0.67;
+    text-align: center;
+  }
+
+  /* List Item Styling */
+  li {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px; 
+    color: #555555;
+    opacity: 0.82;
+  }
+
+/* The Call-to Action Link */
+
+  /* P-type Styling */
   .CTA_Link p {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 
   }
-  .CTA_Link a {
+
+   /* Reference & Link Styling */
+   .CTA_Link a {
     padding-top: 50px;
     margin-top: 15px;
     font-family: "Roboto"
@@ -470,7 +531,7 @@ footer .col-sm-6 a {
     opacity: 0.87;
     text-align: center;
   }
-/* Lower Jumboron Element*/
+/* Lower Jumboron Element */
   .jumbotron_lower {
     display: flex;
     align-items: ;
@@ -503,10 +564,12 @@ footer .col-sm-6 a {
   padding-bottom: 0px;
   }
 
+  /* ATTEMPT @ Properly Centering the the Lower Logo on Mobile */
   footer .col-xs-12 img {
     align-content: center;
   }
 
+  /* Footer Description P-type Styling*/
   footer .col-sm-9 p {
     padding-top: 20px;
     padding-left: 0px;
@@ -515,6 +578,7 @@ footer .col-sm-6 a {
     font-weight: 300;
     opacity: 0.87;
   }
+  /* Footer Description P-type Styling*/
   footer .col-sm-6 p {
     padding-left: 0px;
     padding-top: 0px;
@@ -522,10 +586,11 @@ footer .col-sm-6 a {
     font-weight: 100;
     opacity: 0.82;
   }
+
+  /* Footer Legal & Privacy link Styling*/
   footer .col-sm-6 a {
     color: #004770;
   }
-
 
 
 
@@ -535,21 +600,22 @@ footer .col-sm-6 a {
  @media (max-width: 320px) {
 
 /* Header Section Style & Layout */
-/* I Struggled to eliminate the center text once the  */
   header {
     padding: 20px 0;
   }
-
+  /* Header Row Display Styling */
   header .row {
     display: flex;
     align-items: center;
   }
 
+  /* Header Nav Display Styling */
   header nav {
     display: flex;
     justify-content: flex-end;
   }
 
+  /* Header Description P-type Styling */
   header nav p {
     padding-right: 20px;
     font-family: "Open Sans";
@@ -561,6 +627,7 @@ footer .col-sm-6 a {
     opacity: 0.82;
   }
 
+  /* ATTEMPT @ Properly Sizing the Main Logo */
   .col-sm-3 img {
     height: 75px;
     width: 125px;
@@ -569,7 +636,9 @@ footer .col-sm-6 a {
 
 
 
-/* Main Jumbotron "Aspot Banner" Style & Elements */
+/* Main Jumbotron/Aspot Banner Elements */
+
+  /* Jumbotron Styling */
   .jumbotron {
     display: flex;
     background-image: url('https://i.imgur.com/Kzue4eN.png');
@@ -578,10 +647,8 @@ footer .col-sm-6 a {
     height: 525px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
 
-
-
   }
-  /* Heading Styles in the Jumbotron */
+  /* Primary Header Styling */
   .jumbo-section-head h3{
     margin-top: 0px;
     margin-bottom: 25px;
@@ -596,6 +663,8 @@ footer .col-sm-6 a {
     opacity: 0.93;
     text-align: center;
   }
+
+  /* Secondary Header Styling */
   .jumbo-section-sub-head h4{
     margin-top: 0px;
     margin-bottom: 25px;
@@ -612,16 +681,19 @@ footer .col-sm-6 a {
 
 
 
-/* Input Field  overlaying the Jumbotron */
-  /* The entire Fields size */
+/* Input Field */
+
+  /* Input Field Sizing */
   .input-group {
     width: 215px;
   }
 
+  /* Input Form Sizing */
   .form-control  {
     height: 55px;
   }
 
+  /* Primary Button Styling */
   .btn.btn-primary {
     width: 215px;
     height: 55px;
@@ -634,7 +706,7 @@ footer .col-sm-6 a {
     font-size: 14px;
     font-weight: bold;
   }
-
+  /* Prinamry Button Hover State */
   .btn.btn-primary:hover {
     color: #ffffff;
     border-color: #004770;
@@ -642,11 +714,13 @@ footer .col-sm-6 a {
     background-color: #1367A6;
   }
 
-
+  /* Font Awesome Search Icon */
   .fa.fa-search i {
-    color: #ffffff;
+    color: #1367A6;
   }
 
+
+  /* Video Description Styling */
    .video-description p {
     padding-top: 20px;
     font-family: "Open Sans";
@@ -658,7 +732,11 @@ footer .col-sm-6 a {
     opacity: 0.67;
     text-align: center;
   }
-    .section-heading h3 {
+
+/* Section Below Jumbotron Styling */
+
+  /* Section Text Styling */
+  .section-heading h3 {
     font-family: "Roboto";
     font-size: 19px;
     font-style: normal;
@@ -669,6 +747,7 @@ footer .col-sm-6 a {
     text-align: center;
   }
 
+  /* Section link Styling */
   .section-heading a {
     font-family: "Roboto";
     font-size: 19px;
@@ -681,14 +760,18 @@ footer .col-sm-6 a {
     text-align: center;
   }
 
+/* Media Section Styling */
+
+  /* Media Object Positioning */
   .media-object {
     padding-top: 60px;
   }
 
+  /* Entire Column Spacing */
   .col-sm-6 {
     margin-top: 10px;
   }
-
+  /* Media Heading Sizing */
   .media-heading h4 {
     font-family: "Roboto";
     font-size: 14px;
@@ -701,6 +784,7 @@ footer .col-sm-6 a {
     opacity: 0.82;
     text-align: center;
   }
+  /* Media P-type Sizing */
   .media-body p {
     font-family: "Open Sans";
     font-size: 12px;
@@ -713,17 +797,20 @@ footer .col-sm-6 a {
     opacity: 0.67;
   }
 
+  /* Divider Image Sizing */
   .Divider {
     width: 268px;
   }
-/*List Elements & Styles*/
 
-  /**/
+/* List Elements & Styles */
+
+  /* List Style*/
   ul {
     list-style-image: url(https://i.imgur.com/sdCW4DI.png);
     padding-left: 3px;
   }
 
+  /* List Heading Styling */
   ul h4 {
     font-family: "Roboto"
     font-size: 16px;
@@ -736,6 +823,7 @@ footer .col-sm-6 a {
     text-align: center;
   }
 
+  /* List Item Styling */
   li {
     font-family: "Open Sans";
     font-size: 16px;
@@ -749,16 +837,16 @@ footer .col-sm-6 a {
 
 
 
-/*The Call-to Action Link*/
+/* The Call-to Action Link */
 
-  /*P-type Styling*/
+  /* P-type Styling */
   .CTA_Link p {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
   }
 
-  /*Reference & Link Styling*/
+  /* Reference & Link Styling */
   .CTA_Link a {
     padding-top: 50px;
     margin-top: 15px;
@@ -770,9 +858,9 @@ footer .col-sm-6 a {
     opacity: 0.87;
     text-align: center;
   }
-  
 
-/* Lower Jumbotron Element*/
+
+  /* Lower Jumbotron Element  */
   .jumbotron_lower {
     display: flex;
     align-items: ;
@@ -788,15 +876,15 @@ footer .col-sm-6 a {
 /* Footer Elements */
   footer {
     font-size: 12px;
-    padding: 20px 0;
     background-color: #E2E0E0;
     background-size: cover;
   }
-
+  /* ATTEMPT @ Properly Centering the Lower Logo for Mobile */
   footer .col-xs-12 img {
     align-content: center;
   }
 
+  /* Footer Description P-type Styling */
   footer .col-sm-9 p {
     padding-top: 20px;
     padding-left: 0px;
@@ -805,6 +893,8 @@ footer .col-sm-6 a {
     font-weight: 300;
     opacity: 0.87;
   }
+
+  /* Footer Description P-type Styling */
   footer .col-sm-6 p {
     padding-left: 0px;
     padding-top: 0px;
@@ -812,6 +902,8 @@ footer .col-sm-6 a {
     font-weight: 100;
     opacity: 0.82;
   }
+
+  /* Footer Legal & Privacy link Styling */
   footer .col-sm-6 a {
     color: #004770;
   }
