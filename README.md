@@ -1,5 +1,5 @@
 # BreweryWebsite
-
+![alt](https://i.imgur.com/Iir6nqn.png)
 This is the code for the "Coding Challenge [@Redstitch](https://www.redstitchdigital.com)" by Jeremy Seibert
 
 ## Overview
